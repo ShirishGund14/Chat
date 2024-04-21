@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.png");
+	/* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.png"); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -56,4 +56,9 @@ body {
 	60% {
 		transform: translate3d(4px, 0, 0);
 	}
+}
+
+.chatcontainer{
+	border: 2px solid antiquewhite;
+	background-color: #373737;
 }
